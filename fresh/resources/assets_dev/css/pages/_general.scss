@@ -1,0 +1,186 @@
+body{
+	color: $text-dark;
+	font-family: $open-sans;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.transition{
+	transition: all 500ms ease-in-out;
+}
+
+.clearfix{
+	content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+h1{
+	@extend .uppercase;
+	font-size: 35px;
+	font-weight: 300;
+	color: $text-light;
+	font-family: $source-sanspro;
+	letter-spacing: 5px;
+}
+
+h2{
+	@extend .uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	color: $text-dark;
+	font-family: $source-sanspro;
+	letter-spacing: 5px;
+	&.white{
+		color: $text-light;
+	}
+}
+
+p{
+	color: $text-dark;
+	font-weight: 300;
+	&.white{
+		color: $text-light;
+	}
+
+	&.green{
+		color: $green;
+	}
+
+	&.big{
+		font-size: 16px;
+	}
+}
+
+a{
+	color: $link;
+	font-weight: 700; 
+	&:hover{
+		color: $link;
+	}
+}
+
+.font_16{
+	font-size: 16px;
+}
+
+.no-lateral_padding{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.padding_top_40{
+	padding-top: 40px;
+}
+
+.padding_top_50{
+	padding-top: 50px;
+}
+
+.padding_top_70{
+	padding-top: 70px;
+}
+
+.padding_top_80{
+	padding-top: 80px;
+}
+
+
+.padding_bottom_50{
+	padding-bottom: 50px;
+}
+
+.padding_bottom_70{
+	padding-bottom: 70px;
+}
+
+.padding_bottom_80{
+	padding-bottom: 80px;
+}
+
+
+.padding_left_30{
+	padding-left: 30px;
+}
+
+.padding_right_20{
+	padding-right: 20px;
+}
+
+.margin_top_30{
+	margin-top: 30px;
+}
+
+.margin_top_50{
+	margin-top: 50px;
+}
+
+.margin_bottom_15{
+	margin-bottom: 15px;
+}
+
+.margin_bottom_20{
+	margin-bottom: 20px;
+}
+
+.margin_bottom_30{
+	margin-bottom: 30px;
+}
+
+.margin_bottom_40{
+	margin-bottom: 40px;
+}
+
+.margin_bottom_50{
+	margin-bottom: 50px;
+}
+
+.margin_bottom_80{
+	margin-bottom: 80px;
+}
+
+.margin_bottom_100{
+	margin-bottom: 100px;
+}
+
+.margin_left_20{
+	margin-left: 20px;
+}
+
+.margin_right_15{
+	margin-right: 15px;
+}
+
+.margin_right_60{
+	margin-right: 50px;
+}
+
+.no_margin_bottom{
+	margin-bottom: 0;
+}
+
+.grey_bg{
+	background-color: $light-grey;
+}
+
+.sub_title{
+	color: $sub-title;
+	font-size: 20px;
+	&.white{
+		color: $text-light;
+	}
+
+	&.alignement{
+		display: table-cell;
+		vertical-align: table-cell;
+	}
+}
+
+.position_relative{
+	position: relative;
+}
